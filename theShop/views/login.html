@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Log In</title>
+    </head>
+    <body>
+       <h3>Log In</h3>
+        <p>hierhin kommt man über den Button/Link "Anmelden"</p>
+        <p>von hier wird man nach dem Login zur overview weitergeleitet,
+            <br> bzw. zusammen mit einem Gruß aka <br> "Willkommen zurück, Vorname Nachname!"
+        </p>
+        
+        <form action="/einloggen" method="POST">
+            <label for="vorname">Vorname: </label> <br>
+            <input name="vorname">
+            <br>
+            <label for="nachname">Nachname: </label> <br>
+            <input name="nachname">
+            <br>
+            <label for="passwort">Passwort:</label> <br>
+            <input type="password" name="passwort">
+            <br>
+            <button type="submit">Log In</button>
+        </form>
+
+    </body>
+    <footer>
+        <p>hier kommt impressum und copyright und so hin</p>
+    </footer>
+</html>
